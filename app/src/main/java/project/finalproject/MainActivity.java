@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     mobileAuth(user);
                     Toast.makeText(MainActivity.this, "Mobile authentication",Toast.LENGTH_SHORT).show();
                 }else if(env.equals("Fog Server")){
-                    target = "ip";
+                    target = getResources().getString(R.string.fog);
                     auth(user, target);
                 }else if(env.equals("Cloud Server")) {
                     target = "https://mc-project-261300.appspot.com/mc/";

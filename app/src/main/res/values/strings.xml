@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">FinalProject</string>
-    <string name="cloud"></string>
-    <string name="fog"></string>>
+    <string name="fog">127.0.0.1</string>
 </resources>
