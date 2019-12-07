@@ -1,29 +1,29 @@
 package project.finalproject;
 
 public class Model {
-    private double Accuracy;
-    private double Latency;
+    private double accuracy;
+    private double latency;
 
     public Model(){}
 
     public Model(double accuracy, double latency) {
-        Accuracy = accuracy;
-        Latency = latency;
+        this.accuracy = accuracy;
+        this.latency = latency;
     }
 
     public double getAccuracy() {
-        return Accuracy;
+        return accuracy;
     }
 
     public void setAccuracy(double accuracy) {
-        Accuracy = accuracy;
+        this.accuracy = accuracy;
     }
 
     public double getLatency() {
-        return Latency;
+        return latency;
     }
 
     public void setLatency(double latency) {
-        Latency = latency;
+        this.latency = latency;
     }
 }

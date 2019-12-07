@@ -1,34 +1,34 @@
 package project.finalproject;
 
 public class AuthenticateResponse {
-    private NB nb;
-    private KNN knn;
-    private SVM svm;
+    private NB NB;
+    private KNN KNN;
+    private SVM SVM;
 
     public AuthenticateResponse() {
     }
 
-    public NB getNb() {
-        return nb;
+    public NB getNB() {
+        return NB;
     }
 
-    public void setNb(NB nb) {
-        this.nb = nb;
+    public void setNB(NB NB) {
+        this.NB = NB;
     }
 
-    public KNN getKnn() {
-        return knn;
+    public KNN getKNN() {
+        return KNN;
     }
 
-    public void setKnn(KNN knn) {
-        this.knn = knn;
+    public void setKNN(KNN KNN) {
+        this.KNN = KNN;
     }
 
-    public SVM getSvm() {
-        return svm;
+    public SVM getSVM() {
+        return SVM;
     }
 
-    public void setSvm(SVM svm) {
-        this.svm = svm;
+    public void setSVM(SVM SVM) {
+        this.SVM = SVM;
     }
 }

@@ -1,34 +1,34 @@
 package project.finalproject;
 
 public class AuthenticateRequest {
-    private String User;
+    private String user;
 
     public String getUser() {
-        return User;
+        return user;
     }
 
     public void setUser(String user) {
-        User = user;
+        this.user = user;
     }
 
     public String getModel() {
-        return Model;
+        return model;
     }
 
     public void setModel(String model) {
-        Model = model;
+        this.model = model;
     }
 
-    private String Model;
+    private String model;
 
     public AuthenticateRequest(String User){
-        this.User = User;
-        this.Model = "All";
+        this.user = User;
+        this.model = "ALL";
     }
 
     public AuthenticateRequest(String User, String Model){
-        this.Model = Model;
-        this.User = User;
+        this.model = Model;
+        this.user = User;
     }
 
 }
