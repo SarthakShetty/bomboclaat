@@ -113,9 +113,9 @@ public class MainActivity extends AppCompatActivity {
                     KNN knn = response.body().getKNN();
                     NB nb = response.body().getNB();
                     SVM svm = response.body().getSVM();
-                    String resultText = "NB : Accuracy - " + nb.getAccuracy() + " ,Latency - " + nb.getLatency();
-                    resultText += "\nKNN : Accuracy - " + knn.getAccuracy() + " ,Latency - " + knn.getLatency();
-                    resultText += "\nSVM : Accuracy - " + svm.getAccuracy() + " ,Latency - " + svm.getLatency();
+                    String resultText = "Naive Bayes : Accuracy - " + nb.getAccuracy() + " ,Latency - " + nb.getLatency();
+                    resultText += "\nk-Nearest Neighbours : Accuracy - " + knn.getAccuracy() + " ,Latency - " + knn.getLatency();
+                    resultText += "\nSupport Vector Machine : Accuracy - " + svm.getAccuracy() + " ,Latency - " + svm.getLatency();
                     result.setText(resultText);
                     progressBar.setVisibility(View.INVISIBLE);
                     spinnerEnvironment.setEnabled(true);
